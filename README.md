@@ -1,8 +1,6 @@
 # Contents
 
-Assorted contents:
-
-* [Introduction to Artificial Intelligence](introduction/introduction.pdf)
+* [Introduction to Automated Planning](introduction/introduction.pdf)
 
 # Practical assignments
 
