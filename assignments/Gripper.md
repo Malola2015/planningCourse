@@ -1,4 +1,5 @@
-##Gripper
+## Gripper
+
 This domain is about a robot that can move between two rooms and pick up or drop balls with either of its two arms. 
 
 The planning model (domain and problem) will consist of:
