@@ -4,4 +4,6 @@
 
 # Practical assignments
 
-* [Gripper](assignments/Gripper.md)
+* [Getting Started with PDDL](assignments/GettingStarted.md)
+
+* [Advanced Modelling with PDDL](assignments/AdvancedModelling.md)
