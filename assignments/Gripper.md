@@ -13,11 +13,11 @@ The planning model (domain and problem) will consist of:
 
 Initially, all balls and the robot are in the first room. We want the balls to be in the second room. The figure shows the initial state:
 
-<img align="center" src="gripper-i.png" width="400">
+<img align="center" src="gripper-i.png" width="200">
 
 And the next figure shows the goal state:
 
-<img align="center" src="gripper-g.png" width="400">
+<img align="center" src="gripper-g.png" width="200">
 
 Create a file called *gripper.pddl* and copy the following domain description:
 ```
