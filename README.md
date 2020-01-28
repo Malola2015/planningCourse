@@ -4,4 +4,4 @@
 
 # Practical assignments
 
-* [Introduction to KNIME Analytics Platform](assignments/knime/intro.md)
+* [Gripper](assignments/Gripper.md)
