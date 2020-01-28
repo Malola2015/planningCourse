@@ -16,9 +16,9 @@ In order to help in the resolution of problems, one can check the International 
 
 
 ## Exercises 
-This practical assignment consists of 5 exercises. The first exercise is already modelled. The second and third exercises are partially modelled. The rest has to be modelled from scratch. Each domain should be in a separate folder and should contain the domain file and the problem files. Upload to Blackboard in a .zip all the exercises before the deadline. Each **delayed week**, will be penalised by **0.25**.
+This practical assignment consists of 5 exercises. The first exercise is already modelled. The second and third exercises are partially modelled. The rest has to be modelled from scratch. Each domain should be in a separate folder and should contain the domain file and the problem files. 
  -  Exercise 1: [Gripper](Gripper.md).
- -  Exercise 2: Blocksworld.md
- -  Exercise 3: SpaceOperation.md
- -  Exercise 4: PlanningMotion.md
- -  Exercise 5: Rocket.md
+ -  Exercise 2: [Blocksworld](Blocksworld.md)
+ -  Exercise 3: [Space Operation](SpaceOperation.md)
+ -  Exercise 4: [Planning Motion](PlanningMotion.md)
+ -  Exercise 5: [Rocket](Rocket.md)
