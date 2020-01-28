@@ -1,6 +1,6 @@
 # Contents
 
-* [Introduction to Automated Planning](introduction/introduction.pdf)
+* [Introduction to Automated Planning](Introduction/Introduction.pdf)
 
 # Practical assignments
 
