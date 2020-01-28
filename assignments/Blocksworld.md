@@ -1,4 +1,4 @@
-## Blocks-world
+## Blocksworld
 This domain is one of the first planning models. It consists of a hand robot that can pick up or drop blocks for recycling purpose. Initially, all blocks are on a conveyor belt (or a table) as shown in the figure: 
 
 <img align="center" src="blocks-i.png" width="200">
