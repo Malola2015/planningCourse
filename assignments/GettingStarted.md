@@ -20,5 +20,5 @@ This practical assignment consists of 5 exercises. The first exercise is already
  -  Exercise 1: [Gripper](Gripper.md)
  -  Exercise 2: [Blocksworld](Blocksworld.md)
  -  Exercise 3: [Space Operation](SpaceOperation.md)
- -  Exercise 4: [Planning Motion](PlanningMotion.md)
+ -  Exercise 4: [Robot Planning Motion](RobotMotion.md)
  -  Exercise 5: [Rocket](Rocket.md)
