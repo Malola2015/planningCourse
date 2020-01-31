@@ -16,7 +16,8 @@ In order to help in the resolution of problems, one can check the International 
 
 
 ## Exercises 
-This practical assignment consists of 5 exercises. The first exercise is already modelled. The second and third exercises are partially modelled. The rest has to be modelled from scratch. Each domain should be in a separate folder and should contain the domain file and the problem files. 
+This practical assignment consists of 5 exercises. The first exercise is already modelled. The second and third exercises are partially modelled. The rest has to be modelled from scratch. You can use the following on-line editor to run the models:
+http://editor.planning.domains/ 
  -  Exercise 1: [Gripper](Gripper.md)
  -  Exercise 2: [Blocksworld](Blocksworld.md)
  -  Exercise 3: [Space Operation](SpaceOperation.md)
