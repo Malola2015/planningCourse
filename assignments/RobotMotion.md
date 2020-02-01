@@ -1,6 +1,6 @@
 ## Robot motion planning
 
-The original STRIPS program was designed to control Shakey, a robot that roamed the halls of SRI in the early 1970s. It turns out that most of the work on STRIPS involved simulations where the actions performed were just printing to a terminal, but occasionally Shakey would actually move around, grab, and push things based on the plans created by STRIPS. The figure shows a version of Shakey’s world consisting of four rooms lined up along a corridor, where each room has a door and a light switch.
+The original STRIPS program was designed to control Shakey, a robot that roamed the halls of SRI (Standford Research Institute) in the early 1970s. It turns out that most of the work on STRIPS involved simulations where the actions performed were just printing to a terminal, but occasionally Shakey would actually move around, grab, and push things based on the plans created by STRIPS. The figure shows a version of Shakey’s world consisting of four rooms lined up along a corridor, where each room has a door and a light switch.
 
 <img align="center" src="shakey.png" width="400">
 
