@@ -13,7 +13,7 @@ Shakey can move from place to place, push movable objects (such as boxes), climb
 
 Do the following steps:
 
- 1. Define the domain and the problem for the Shakey world and generate the **same problem** of the figure. 
+ 1. Define the domain and the problem for the Shakey world considering that Shakey is on the top room with 2 boxes and all the switches are off. The goal is that all switches are on.
  2. Define types.
  3. Extend the domain to include the actions Open and Close.  As preconditions for the Go action, add that the door should be open. Assume that when pushing or switching the interrupter is enough that they are in the same place (don't subdivide the map on cells since it will complicate the model). 
  4. Generate other problem(s) with higher/lesser number of rooms and boxes randomly distributed. Note that rooms can be (or not) connected with a corridor.
