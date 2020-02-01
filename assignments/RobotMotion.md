@@ -4,7 +4,7 @@ The original STRIPS program was designed to control Shakey, a robot that roamed 
 
 <img align="center" src="shakey.png" width="400">
 
-Shakey can move from place to place, push movable objects (such as boxes), climb on and off of rigid objects (such as boxes) and turn light switches in and off. There are 6 actions:
+Shakey can move from place to place, push movable objects (such as boxes), climb on and off of rigid objects (such as boxes) and turn light switches on and off. There are 6 actions:
 
 * Go from current location x to location y: Go (x,y) moves from x to y (that cannot be the same room). By convection there is a room between rooms.
 * Push an object b from location x to location y: Push(b,x,y).
