@@ -105,5 +105,5 @@ Do the following steps:
        `:parameters (?b - ball)`
    
     - In the problem, define the type of the objects:
-    `(:objects rooma roomb - room)`
+    (:objects rooma roomb - room)
 
