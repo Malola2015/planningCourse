@@ -23,21 +23,19 @@ Create a file called *blocks.pddl* and copy the following domain description:
   (:action pick-up
        :parameters (?x)
        :precondition (and (clear ?x) (ontable ?x) (handempty))
-       :effect
-       (and (not (ontable ?x))
-       (not (clear ?x))
-       (not (handempty))
-       (holding ?x))
+       :effect (and (not (ontable ?x))
+                    (not (clear ?x))
+                    (not (handempty))
+                    (holding ?x))
    )
   (:action unstack
        :parameters (?x ?y)
        :precondition (and (on ?x ?y) (clear ?x) (handempty))
-       :effect
-       (and (holding ?x)
-       (clear ?y)
-       (not (clear ?x))
-       (not (handempty))
-       (not (on ?x ?y)))
+       :effect (and (holding ?x)
+                    (clear ?y)
+                    (not (clear ?x))
+                    (not (handempty))
+                    (not (on ?x ?y)))
    )  
   (:action stack
        :parameters (?x ?y)
