@@ -9,7 +9,7 @@ The planning model (domain and problem) will consist of:
    -    Initial state: all balls and the robot are in the first room. All
    robot arms are empty (problem)
    -    Goal specification: all balls must be in the second room (problem)
-    -   Actions/Operators: the robot can move between rooms, pick up a ball or drop a ball (domain)
+   -    Actions/Operators: the robot can move between rooms, pick up a ball or drop a ball (domain)
 
 Initially, all balls and the robot are in the first room. We want the balls to be in the second room. The figure shows the initial state:
 
