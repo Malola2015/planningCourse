@@ -8,7 +8,7 @@ The activities that have to be modelled are:
  - Switch on (instrument, satellite): switch on the power of an instrument inside the satellite.
  - Switch off (instrument, satellite): switch off the power of an instrument  inside the satellite.
  - Calibrate (satellite, instrument, direction): calibrate an instrument (that should be on) inside the satellite in the direction specified.
- -  Maintenance (satellite, instrument, direction, mode): perform a maintenance operation.
+ -  Maintenance (satellite): perform a maintenance operation.
  - Take image (satellite, direction, instrument, mode): the instrument (that should be switch on) takes an image according to a certain direction and mode. Once the image is taken, the instrument needs maintenance (two images cannot be taken sequentially). The code of this action is as follows:
 
  ```
