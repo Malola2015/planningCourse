@@ -1,4 +1,4 @@
-##Building
+## Building
 
 There is a building with N + 1 floors, numbered from 0 to N. 
 The building has *K*  fast (accelerating) elevators that stop only in floors that are multiple of M/ 2 (so *M* has to be an **even** number). Furthermore, within each building, there are *L* slow elevators, that stop at every floor of the building. 
