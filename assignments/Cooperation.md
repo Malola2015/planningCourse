@@ -9,7 +9,7 @@ We define the following actions:
  -  Take photographs with the camera. Tha camera has two rotations:  up and down (PAN) and left and right (TILT).
  -  Change the navigation mode.
  -  Transmit the images taken.
- -  Change the orientation.
+ -  Change the orientation of the camera (PAN and TILT).
  
  All the actions have a variable duration (except when trasmitting a picture, changing the navigation mode and Docking that are constant) and consume energy.
 
@@ -37,7 +37,7 @@ The goal is to take two pictures in the following positions:
 X=5 Y=9 with P_0 & T_0
 X=16 Y=13 with P_0 & T_0
   ```
-  minimizing the total duration and/or the energy used. 
+minimizing the total duration and/or the energy used. 
 
 Define two preferences:
  -  ALWAYS the UAV does not remain at the base station.
