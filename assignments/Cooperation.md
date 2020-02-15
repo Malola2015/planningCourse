@@ -30,6 +30,7 @@ As a baseline of the objects defined in the problem, consider this definition:
   N0 N1 - NavMode
   P_0 P_45 P_90 P_135 P_180 P_225 P_270 P_315 - Pan
   T_0 T_45 T_90 T_270 T_315 - Tilt
+  )
  ```
  
 The goal is to take two pictures in the following positions:
