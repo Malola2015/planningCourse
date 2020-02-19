@@ -39,5 +39,5 @@ Do the following steps:
 (switch_on instrument1 satellite1)
 (calibrate satellite1 instrument1 star0)
 (perfor_maintenance satellite1)
-(take_image satellite1 star0 instrument1 spectrograph2)
+(take_image satellite1 phenomenon3 instrument1 spectrograph2)
 ```
