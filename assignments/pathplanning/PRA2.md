@@ -22,15 +22,15 @@ Perform the following tasks:
    
 3. We provide you with the implementation of A* and Dijkstra. The implementation of A* is based on the  pseudo-code of the next figure:
 
-<img align="center" src="A*.png" width="400">
+<img align="center" src="A*.png" width="600">
 
 4. Implement Theta* using the following pseudo-code:
 
-<img align="center" src="Theta*.png" width="400">
+<img align="center" src="Theta*.png" width="600">
 
 Take into account that the difference between A* and Theta* is the Line of sight. Here is the code to calculate it:
 
-<img align="center" src="Lineofsight.png" width="400">
+<img align="center" src="Lineofsight.png" width="600">
 
 5. Which heuristic is used by default? If needed, use the path-planning visualizer in https://qiao.github.io/PathFinding.js/visual/ to reconstruct the scenario and observe the node expansion using different algorithms.
 
