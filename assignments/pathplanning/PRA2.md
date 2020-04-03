@@ -3,7 +3,7 @@
 
 ## Objectives
 
-* Compare Dijkstra, A* or Theta*algorithms.
+* Compare Dijkstra, A* and Theta* algorithms.
 * Implement Theta* and some heuristics.
 * Understand the impact of the heuristic selection in path-planning.
 * Use a graphical interface to visualize the results.
@@ -13,6 +13,8 @@
 Install [PathPlanPrinter](https://github.com/R012/PathPlanPrinter), which depends on the libraries numpy and PIL or Pillow. Read the README.md file in the project's root folder for instructions about the usage.
 
 In order to make a local copy, please do the following:
+1. Open a terminal a place where you want to locally copy the directory.
+2. Clone the folder using the command:
 
  `git clone https://github.com/R012/PathPlanPrinter.git`
 
@@ -20,7 +22,7 @@ In order to make a local copy, please do the following:
 
 Perform the following tasks:
 
-1. Use the following functions to visualize paths on images. (EXPLICAR!!!!)
+1. Use the the functions provide in the documentation to visualize paths on images. 
 
 2. Consider that the robot is initially located at the position (18,19) and the goal is to be at position (12,12). Visualizes the computed path using the Dijkstra algorithm. Change the initial point to  (27,19) and the goal point to (8,20).
    
