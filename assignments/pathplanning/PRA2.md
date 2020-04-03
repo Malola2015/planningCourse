@@ -43,13 +43,13 @@ Take into account that the difference between A* and Theta* is the Line of sight
 
 Once the path-planning algorithms are ready, we want to call them to avoid the PDDL planner to calculate paths between tasks. Do the following tasks:
 
-1. Modify the [Planetary exploration on Mars](https://github.com/Malola2015/planningCourse/blob/master/assignments/PlanetaryExploration.md) or the [Cooperation]((https://github.com/Malola2015/planningCourse/blob/master/assignments/Cooperation.md)) domain to consider the coordinates as objects of the type ```Point```. For example, X=6 Y=10 will be represented as the object P0610. Now, you can delete all the obstacles since the path will be now delegated to the path-planner algorithm, freeing the PDDL planner from it.
+1. Modify the [Planetary exploration on Mars](https://github.com/Malola2015/planningCourse/blob/master/assignments/PlanetaryExploration.md) or the [Cooperation](https://github.com/Malola2015/planningCourse/blob/master/assignments/Cooperation.md) domain to consider the coordinates as objects of the type ```Point```. For example, X=6 Y=10 will be represented as the object P0610. Now, you can delete all the obstacles since the path will be now delegated to the path-planner algorithm, freeing the PDDL planner from it.
 
 2. Run the new domain (if you have modelled it in a different way) and save the solution into a file called ```planning.txt```. This file will be the input to an integration program that will call the path-planning algorithm.
 
 3. Copy the code provided in the following link to a file called ```run_integration.py```. 
 
-https://gist.github.com/R012/0fe8ec73b58c0a95844370c6510454d9
+   https://gist.github.com/R012/0fe8ec73b58c0a95844370c6510454d9
 
 4. That code reads the PDDL output, and each time there is a ```move``` action with a coordinate, it calls the path-planning algorithm with the destination given by the action. By default, the initial state is set to the position = (10, 10) in the ```visualize_paths_from_pddl``` function. Please change it accordingly to your initial state in PDDL file.
 
