@@ -37,7 +37,9 @@ Take into account that the difference between A* and Theta* is the Line of sight
 
 5. Implement the Manhattan and Euclidean heuristics for A*/Theta*. Both functions take the initial and final points as tuples (X, Y) and must return a float with the heuristic value.
 
-6. Run the 3 algorithms and compare the results, changing when appropriate the heuristic.
+6. Run the 3 algorithms and compare the results, changing when appropriate the heuristic. 
+
+7. Optionally, you can define other heuristics such as the octal distance.
 
 ### Integration
 
@@ -51,9 +53,9 @@ Once the path-planning algorithms are ready, we want to call them to avoid the P
 
    https://gist.github.com/R012/0fe8ec73b58c0a95844370c6510454d9
 
-4. That code reads the PDDL output, and each time there is a ```move``` action with a coordinate, it calls the path-planning algorithm with the destination given by the action. By default, the initial state is set to the position = (10, 10) in the ```visualize_paths_from_pddl``` function. Please change it accordingly to your initial state in PDDL file.
+4. That code reads the PDDL output, and each time there is a ```move``` action with a coordinate, it calls the path-planning algorithm with the destination given by the action. By default, the initial state is set to the position = (10, 10) in the ```visualize_paths_from_pddl``` function. Please change it accordingly to your initial state in your PDDL file.
 
-5. Note that you have to provide the route and names to both, the solution of the planner, i.e.```planning.txt``` (placed in this case in the ```/res/``` folder) and the map with obstacles, i.e.```example.png``` (placed in the same folder). You can place those files when you want, just remember to specify the route.
+5. Note that you have to provide the route and names to both, the solution of the planner, i.e.```planning.txt``` (placed in this case in the ```/res/``` folder) and the map with the obstacles, i.e.```example.png``` (placed in the same folder). You can place those files when you want, just remember to specify the route.
 ``` task_plan = generate_task_list('../res/planning.txt')``` 
 ```visualize_paths_from_pddl(task_plan, '../res/example.png')``` 
 
