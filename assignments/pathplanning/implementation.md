@@ -1,10 +1,11 @@
-# Implement path-planning algorithms
+# Integrate path-planning algorithms with PDDL planners
 
 ## Objectives
 
 * Understand the importance of path-planning in robotics.
 * Study and implement well-known path planning algorithms.
 * Compare the algorithms using different heuristics.
+* Integrate PDDL planners with path planning algorihtms.
 
 
 ## Introduction
