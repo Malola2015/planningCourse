@@ -1,12 +1,13 @@
-# Implementation and comparison of heuristics for path-planning
+# Integrate path-planning and task-planning 
 
 
 ## Objectives
 
-* Compare Dijkstra, A* and Theta*algorithms.
-* Implement Theta* and some heuristics.
-* Understand the impact of the heuristic selection in path-planning.
+* Compare Dijkstra, A* and Theta* algorithms.
+* Implement Theta* algorithm and some heuristics. 
+* Compare the heuristics and understand the impact on the solution.
 * Use the R2P2 simulator.
+* Integrate path-planning and task-planning.
 
 ## Dependencies
 
@@ -15,6 +16,8 @@ Install the [R2P2](https://github.com/ISG-UAH/R2P2) simulator, which depends on 
 Remember to install R2P2 dependencies by executing ```pip install -r requirements.txt``` from the folder that contains R2P2.
 
 ## Practical assignment
+
+### Path-planning
 
 Perform the following tasks:
 
@@ -42,8 +45,13 @@ Take into account that the difference between A* and Theta* is the Line of sight
 
 <img align="center" src="Lineofsight.png" width="600">
 
-6. Which heuristic is used by default? If needed, use the path-planning visualizer in https://qiao.github.io/PathFinding.js/visual/ to reconstruct the scenario and observe the node expansion using different algorithms.
+6. Which heuristic is used by default? If needed, use the path-planning visualizer in https://qiao.github.io/PathFinding.js/visual/ to reconstruct the scenario and observe the node expansion using the different algorithms.
 
 7. Implement the Manhattan and Euclidean heuristics for A*/Theta*. Go to the ```r2p2/heuristic.py``` file and fill out the functions ```euclidean``` and ```manhattan```. Both functions take the initial and final points as tuples (X, Y) and must return a float with the heuristic value.
 
 8. Run the 3 algorithms and compare the results, changing when appropriate the heuristic.
+
+### Integration
+
+In order to integrate the previous algorithms with task-planning, use the functions in the following link:
+https://gist.github.com/R012/244f4e97416adcb8f8716caf28d19f2e
