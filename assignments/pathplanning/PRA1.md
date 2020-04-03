@@ -3,7 +3,7 @@
 
 ## Objectives
 
-* Compare Dijkstra, A* or Theta*algorithms.
+* Compare Dijkstra, A* and Theta*algorithms.
 * Implement Theta* and some heuristics.
 * Understand the impact of the heuristic selection in path-planning.
 * Use the R2P2 simulator.
