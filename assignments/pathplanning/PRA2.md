@@ -55,7 +55,8 @@ Once the path-planning algorithms are ready, we want to call them to avoid the P
 
 4. That code reads the PDDL output, and each time there is a ```move``` action with a coordinate, it calls the path-planning algorithm with the destination given by the action. By default, the initial state is set to the position = (10, 10) in the ```visualize_paths_from_pddl``` function. Please change it accordingly to your initial state in your PDDL file.
 
-5. Note that you have to provide the route and names to both, the solution of the planner, i.e.```planning.txt``` (placed in this case in the ```/res/``` folder) and the map with the obstacles, i.e.```example.png``` (placed in the same folder). You can place those files when you want, just remember to specify the route.
+5. Note that you have to provide the route and names to both, the solution of the planner, i.e.```planning.txt``` (placed in this case in the ```/res/``` folder) and the map with the obstacles, i.e.```example.png``` (placed in the same folder). You can place those files when you want, just remember to specify the route. The code that you have to modify is:
+
 ``` task_plan = generate_task_list('../res/planning.txt')``` 
 ```visualize_paths_from_pddl(task_plan, '../res/example.png')``` 
 
