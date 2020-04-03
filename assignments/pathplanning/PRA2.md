@@ -10,7 +10,11 @@
 
 ## Dependencies
 
-EXPLICAR COMO se realiza la visualización sobre una imagen
+Install [PathPlanPrinter](https://github.com/R012/PathPlanPrinter), which depends on the libraries numpy and PIL or Pillow. Read the README.md file in the project's root folder for instructions about the usage.
+
+In order to make a local copy, please do the following:
+
+ `git clone https://github.com/R012/PathPlanPrinter.git`
 
 ## Practical assignment
 
