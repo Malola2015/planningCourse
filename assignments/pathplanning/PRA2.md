@@ -60,7 +60,9 @@ Once the path-planning algorithms are ready, we want to call them to avoid the P
 ``` task_plan = generate_task_list('../res/planning.txt')``` 
 ```visualize_paths_from_pddl(task_plan, '../res/example.png')``` 
 
-5. Run the ```run_integration.py``` file and see the result.
+5. Run the ```run_integration.py``` file and see the result. 
+
+6. Change the heuristics and the algorithms.
 
 
 
