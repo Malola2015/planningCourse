@@ -65,7 +65,7 @@ Once the path-planning algorithms are ready, we want to call them to avoid the P
 
 ### What else?
 
-Write in a .doc file, if what you have implemented so far is enough to autonomously control the robot. what else is needed? You don´t need to implement anything, it is more a reflexion for building intelligent robots. 
+Write in a .doc file, if what you have implemented so far is enough to autonomously control the robot. what else is needed? You don´t need to implement anything, it is more a reflexion for building intelligent robots.
 
 
 
