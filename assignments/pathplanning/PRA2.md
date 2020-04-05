@@ -35,11 +35,9 @@ Take into account that the difference between A* and Theta* is the Line of sight
 
 4. Which heuristic is used by default? If needed, use the path-planning visualizer in https://qiao.github.io/PathFinding.js/visual/ to reconstruct the scenario and observe the node expansion using different algorithms.
 
-5. Implement the Manhattan and Euclidean heuristics for A*/Theta*. Both functions take the initial and final points as tuples (X, Y) and must return a float with the heuristic value.
+5. Implement the Euclidean, Manhattan and Octile heuristics for A*/Theta*. These functions take the initial and final points as tuples (X, Y) and must return a float with the heuristic value.
 
 6. Run the 3 algorithms and compare the results, changing when appropriate the heuristic. 
-
-7. Optionally, you can define other heuristics such as the octal distance.
 
 ### Integration
 
@@ -63,6 +61,11 @@ Once the path-planning algorithms are ready, we want to call them to avoid the P
 5. Run the ```run_integration.py``` file and see the result. 
 
 6. Change the heuristics and the algorithms.
+
+
+### What else?
+
+Write in a .doc file, if what you have implemented so far is enough to autonomously control the robot. what else is needed? You don´t need to implement anything, it is more a reflexion for building intelligent robots. 
 
 
 
