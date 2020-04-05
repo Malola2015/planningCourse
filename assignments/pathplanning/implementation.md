@@ -14,7 +14,7 @@ The pseudocode that will be used in this practical assignment is taken from the 
 
  The algorithms will be implemented in Python, and there will be two different practical assignments depending on the lab group. Upload to the platform ONLY the practical assignments corresponding to your lab group. Uploading a different one will be considered as not **performed** and then, it will not be taken into account into the lab mark.
 
-The practical assignment is inspired in the following article published by Pablo Muñoz, María D. R-Moreno and David F. Barrero. [Unified framework for path-planning and task-planning for autonomous robots](https://www.sciencedirect.com/science/article/abs/pii/S0921889016302184?via%3Dihub). Robotics and Autonomous Systems, Vol. 82, pp:1-14 August 2016
+The practical assignment is inspired in the article published by Pablo Muñoz, María D. R-Moreno and David F. Barrero. [Unified framework for path-planning and task-planning for autonomous robots](https://www.sciencedirect.com/science/article/abs/pii/S0921889016302184?via%3Dihub). Robotics and Autonomous Systems, Vol. 82, pp:1-14 August 2016.
 
 ## Practical assignment 1 
 
