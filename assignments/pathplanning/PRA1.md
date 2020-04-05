@@ -57,15 +57,19 @@ Once the path-planning algorithms are ready, we want to call them to avoid the P
 
 1. Modify the [Cooperation](https://github.com/Malola2015/planningCourse/blob/master/assignments/Cooperation.md) domain to consider the coordinates as objects of the type Point. For example, X=6 Y=10 will be represented as the object P0610. Now, you can delete all the obstacles since the path will be now delegated to the path-planner algorithm, freeing the PDDL planner from it.
 
-2. Run the new domain (if you have modelled it in a different way) and save the solution into a file called ```planning.txt```. This file will be the input to the simulator that will call the path-planning algorithm.
+2. Run the new domain (if you have modelled it in a different way) and save the solution into a file called ```planning.txt```. This file will be the input to the simulator that will call the path-planning algorithm.  This file is located in ```../res/``` folder.
 
 3. Find the code provided in the following link in the simulator:
 
    https://gist.github.com/R012/244f4e97416adcb8f8716caf28d19f2e
 
-That code reads the PDDL output, and each time there is a ```move``` action with a coordinate, it calls the path-planning algorithm with the destination given by the action.
+   That code reads the PDDL output, and each time there is a ```move``` action with a coordinate, it calls the path-planning algorithm 
+   with the destination given by the action.
 
-4. Change the heuristics and the algorithms.
+4. Change the heuristics and the algorithms in the appropiate function.
+
+5. Run the Planning domain scenario.
+
 
 ### What else?
 
