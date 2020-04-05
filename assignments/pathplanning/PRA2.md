@@ -61,7 +61,7 @@ Once the path-planning algorithms are ready, we want to call them to avoid the P
 
 5. Run the ```run_integration.py``` file and see the result. 
 
-6. Change the heuristics and the algorithms.
+6. Change the heuristics and the algorithms modifying the inputs to the ```run_path_planning``` function.
 
 
 ### What else?
