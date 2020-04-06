@@ -19,7 +19,7 @@ Install [PathPlanPrinter](https://github.com/R012/PathPlanPrinter), which depend
 ### Path-planning
 Perform the following tasks:
 
-1. Consider that the robot is initially located at the position (10,10) and the goal is to be at position (15,15) in the map `test_2.png` placed in the ```../res/``` folder. Visualize the computed path using the Dijkstra algorithm. The solution will be saved in the ```../out/``` folder. In all the tests that you will perform, use a grid size up to 40.
+1. Consider that the robot is initially located at the position (10,10) and the goal is to be at position (15,15) in the map `test_2.png` placed in the ```../res/``` folder. Visualize the computed path using the Dijkstra algorithm. The solution will be saved in the ```../out/``` folder. It's advisable for the grid size to use values between 15 and 40 in order not to lose precision without compromising efficiency.
 
 
    ```python run_path_planning.py --scenario  ../res/test_2.png --start "(10,10)" --finish "(15,15)" --grid_size 40 --algorithm Dijkstra --heuristic naive```
