@@ -19,13 +19,17 @@ Install [PathPlanPrinter](https://github.com/R012/PathPlanPrinter), which depend
 ### Path-planning
 Perform the following tasks:
 
-1. Consider that the robot is initially located at the position (18,19) and the goal is to be at position (12,12). Visualizes the computed path using the Dijkstra algorithm. Change the initial point to  (27,19) and the goal point to (8,20).
+1. Consider that the robot is initially located at the position (10,10) and the goal is to be at position (15,15) in the map `test_2.png` placed in the ```../res/``` folder. Visualize the computed path using the Dijkstra algorithm. The solution will be saved in the ```../out/``` folder. In all the tests that you will perform, use a grid size up to 40.
+
+```python run_path_planning.py --scenario  ../res/test_2.png --start "(10,10)" --finish "(15,15)" --grid_size 40 --algorithm Dijkstra --heuristic naive```
+
+2. Change the initial point to  (27,19) and the goal point to (8,20) and use the A* algorithm with the naive heuristic.
    
-2. We provide you with the implementations of A* and Dijkstra in the ```/src/``` folder. The implementation of A* is based on the  pseudo-code of the next figure taken from [Theta*: Any-Angle Path Planning on Grids](https://arxiv.org/pdf/1401.3843.pdf):
+3. We provide you with the implementations of A* and Dijkstra in the ```/src/``` folder. The implementation of A* is based on the  pseudo-code of the next figure taken from [Theta*: Any-Angle Path Planning on Grids](https://arxiv.org/pdf/1401.3843.pdf):
 
 <img align="center" src="A*.png" width="600">
 
-3. Implement Theta* using the following pseudo-code:
+4. Implement Theta* using the following pseudo-code:
 
 <img align="center" src="Theta*.png" width="600">
 
@@ -33,11 +37,11 @@ Take into account that the difference between A* and Theta* is the Line of sight
 
 <img align="center" src="Lineofsight.png" width="600">
 
-4. Which heuristic is used by default? If needed, use the path-planning visualizer in https://qiao.github.io/PathFinding.js/visual/ to reconstruct the scenario and observe the node expansion using different algorithms.
+5. Which heuristic is used by default? If needed, use the path-planning visualizer in https://qiao.github.io/PathFinding.js/visual/ to reconstruct the scenario and observe the node expansion using different algorithms.
 
-5. Implement the Euclidean, Manhattan and Octile heuristics for A*/Theta*. These functions take the initial and final points as tuples (X, Y) and must return a float with the heuristic value.
+6. Implement the Euclidean, Manhattan and Octile heuristics for A*/Theta*. These functions take the initial and final points as tuples (X, Y) and must return a float with the heuristic value.
 
-6. Run the 3 algorithms and compare the results, changing when appropriate the heuristic. 
+7. Run the 3 algorithms and compare the results, changing when appropriate the heuristic. 
 
 ### Integration
 
@@ -61,7 +65,7 @@ Once the path-planning algorithms are ready, we want to call them to avoid the P
 
 5. Run the ```run_integration.py``` file and see the result. 
 
-6. Change the heuristics and the algorithms modifying the inputs to the ```run_path_planning``` function.
+6. Change the heuristics and the algorithms modifying the inputs to the call to the ```run_path_planning``` function.
 
 
 ### What else?
