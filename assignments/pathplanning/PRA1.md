@@ -31,7 +31,8 @@ Perform the following tasks:
 
    Note that the robot is initially located at the position (18,19) and the goal at position (12,12). The simulator visualizes the computed path. 
    
-3. Given that the configuration of the robot controller is located in the file ```conf/controller-pathplanning.json```, change the initial point to  (27,19) and the goal point to (8,20).
+3. Given that the configuration of the robot controller is located in the file ```conf/controller-pathplanning.json```, change the initial point to  (27,19) and the goal to (8,20). You can also change the size of the grid. Remember that it is advisable 
+to use values between 15 and 40 in order not to lose precision without compromising efficiency.
 
 4. In order to change the algorithm (A*, Dijkstra or Theta*) just set "A*"  "Dijkstra" or "Theta*" in the ```algorithm``` field of ```conf/controller-pathplanning.json``` (caution, the simulator is case sensitive). We provide you with the implementation of A* and Dijkstra. The implementation of A* is based on the  pseudo-code of the next figure:
 
