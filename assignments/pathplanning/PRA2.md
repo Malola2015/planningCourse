@@ -24,7 +24,7 @@ Perform the following tasks:
 
    ```python run_path_planning.py --scenario  ../res/test_2.png --start "(10,10)" --finish "(15,15)" --grid_size 40 --algorithm Dijkstra --heuristic naive```
 
-2. Change the initial point to  (27,19) and the goal point to (8,20) and use the A* algorithm with the naive heuristic.
+2. Change the initial point to  (27,19) and the goal point to (8,20). Run the problem using the A* algorithm with the naive heuristic.
    
 3. We provide you with the implementations of A* and Dijkstra in the ```/src/``` folder. The implementation of A* is based on the  pseudo-code of the next figure taken from [Theta*: Any-Angle Path Planning on Grids](https://arxiv.org/pdf/1401.3843.pdf):
 
