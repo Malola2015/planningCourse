@@ -21,7 +21,9 @@ Perform the following tasks:
 
 1. Consider that the robot is initially located at the position (10,10) and the goal is to be at position (15,15) in the map `test_2.png` placed in the ```../res/``` folder. Visualize the computed path using the Dijkstra algorithm. The solution will be saved in the ```../out/``` folder. In all the tests that you will perform, use a grid size up to 40.
 
-```python run_path_planning.py --scenario  ../res/test_2.png --start "(10,10)" --finish "(15,15)" --grid_size 40 --algorithm Dijkstra --heuristic naive```
+
+   ```python run_path_planning.py --scenario  ../res/test_2.png --start "(10,10)" --finish "(15,15)" --grid_size 40 --algorithm Dijkstra 
+      --heuristic naive```
 
 2. Change the initial point to  (27,19) and the goal point to (8,20) and use the A* algorithm with the naive heuristic.
    
