@@ -42,7 +42,7 @@ Take into account that the difference between A* and Theta* is the Line of sight
 
 6. Implement the Euclidean, Manhattan and Octile heuristics for A*/Theta*. These functions take the initial and final points as tuples (X, Y) and must return a float with the heuristic value.
 
-7. Run the 3 algorithms and compare the results, changing when appropriate the heuristic. 
+7. Create the image given on [slide 19](=HIPERVINCULO("https://github.com/Malola2015/planningCourse/blob/master/techniques/pp.pdf";"Robotics: Path-Planning"),  run the 3 algorithms and compare the results, changing the heuristics.
 
 ### Integration
 
