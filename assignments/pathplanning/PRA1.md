@@ -48,9 +48,9 @@ Take into account that the difference between A* and Theta* is the Line of sight
 
 6. Which heuristic is used by default? If needed, use the path-planning visualizer in https://qiao.github.io/PathFinding.js/visual/ to reconstruct the scenario and observe the node expansion using the different algorithms.
 
-7. Implement the Manhattan and Euclidean heuristics for A*/Theta*. Go to the ```r2p2/heuristic.py``` file and fill out the functions ```euclidean``` and ```manhattan```. Both functions take the initial and final points as tuples (X, Y) and must return a float with the heuristic value.
+7. Implement the Manhattan, Octile and Euclidean heuristics for A*/Theta*. Go to the ```r2p2/heuristic.py``` file and fill out the functions ```euclidean``` and ```manhattan```, and create a new one for the Octile heuristic (don´t forget to register it). The functions take the initial and final points as tuples (X, Y) and must return a float with the heuristic value.
 
-8. Run the 3 algorithms and compare the results, changing when appropriate the heuristic.
+8. Create the image given on [slide 19](https://github.com/Malola2015/planningCourse/blob/master/techniques/pp.pdf"), set the grid size as 40, run the 3 algorithms and compare the results, changing the heuristic.
 
 ### Integration
 
