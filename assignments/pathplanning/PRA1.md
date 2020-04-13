@@ -60,12 +60,12 @@ Once the path-planning algorithms are ready, we want to call them to avoid the P
 
 2. Run the new domain (if you have modelled it in a different way) and save the solution into a file called ```planning.txt```. This file will be the input to the simulator that will call the path-planning algorithm.  This file is located in ```../res/``` folder. Just overwrite it.
 
-3. Find the code provided in the following link in the simulator:
+3. The code provided in the following link in the simulator is placed in ```r2p2/controllers/pddl_executor.py```.
 
    https://gist.github.com/R012/244f4e97416adcb8f8716caf28d19f2e
 
-   That code reads the PDDL output, and each time there is a ```move``` action with a coordinate, it calls the path-planning algorithm 
-   with the destination given by the action. This code is integrated in the simulator.
+   The code reads the PDDL output, and each time there is a ```move``` action with a coordinate, it calls the path-planning  
+   algorithm with the destination given by the action. This code is integrated in the simulator.
 
 4. Change the heuristics and the algorithms in the appropiate function.
 
