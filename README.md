@@ -26,7 +26,7 @@
 
 * [Heuristic Search Planning (HSP)](techniques/HSP.pdf)
 
-* [Replanning and Conditional Planning](techniques/planning&actingUncertainty.pdf)
+* [Replanning and Contingency Planning](techniques/planning&actingUncertainty.pdf)
 
 * [Learning](techniques/learning.pdf)
 
