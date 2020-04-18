@@ -50,6 +50,8 @@
 
 * [Control Architectures](robotics/controlarchitecture.pdf)
 
+* [Space Robotics](robotics/introduction2spaceRobotics.pdf)
+
 ## Practical assignments
 
 * [Getting Started with PDDL](assignments/GettingStarted.md)
