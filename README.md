@@ -50,7 +50,7 @@
 
 * [Control Architectures](robotics/controlarchitecture.pdf)
 
-* [Space Robotics](robotics/introduction2spaceRobotics.pdf)
+* [Space Robotics](space/introduction2spaceRobotics.pdf)
 
 ## Practical assignments
 
