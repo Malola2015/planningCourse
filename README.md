@@ -40,7 +40,7 @@
 
 * [Scheduling](techniques/scheduling.pdf)
 
-* [Temporal Constraint Satisfaction Problem](techniques/TCSP.pdf)
+* [Temporal Constraint Satisfaction Problem (TCSP)](techniques/TCSP.pdf)
 
 ## Robotics
 
@@ -50,7 +50,7 @@
 
 * [Control Architectures](robotics/controlarchitecture.pdf)
 
-# Practical assignments
+## Practical assignments
 
 * [Getting Started with PDDL](assignments/GettingStarted.md)
 
