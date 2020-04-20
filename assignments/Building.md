@@ -16,7 +16,7 @@ Note: Use objects (and not numbers) to treat the number of persons and the level
 ```
   (:types  lift - object 
            slowlift fastlift - lift
-   	       person - object
+           person - object
            number - object
   )
 ```
