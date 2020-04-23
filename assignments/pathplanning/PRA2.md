@@ -44,6 +44,8 @@ Take into account that the difference between A* and Theta* is the Line of sight
 
 7. Create the image given on [slide 19](https://github.com/Malola2015/planningCourse/blob/master/robotics/pathplanning.pdf"), set the grid size as 40, run the 3 algorithms and compare the results, changing the heuristic. Capture the images of the solution and upload them with the rest of the files.
 
+
+
 ### Integration
 
 Once the path-planning algorithms are ready, we want to call them to avoid the PDDL planner to calculate paths between tasks. Do the following tasks:
