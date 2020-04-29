@@ -46,7 +46,7 @@
 
 * [Introduction to Robotics](robotics/intro2robotics.pdf)
 
-* [Path Planning](robotics/path-planning.pdf)
+* [Path Planning](robotics/pathplanning.pdf)
 
 * [Control Architectures](robotics/controlarchitecture.pdf)
 
