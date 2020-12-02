@@ -6,7 +6,7 @@ https://github.com/Malola2015/planningCourse/blob/master/assignments/PlanetaryEx
 
 From that domain, consider:  
 - A new activity that extends the solar panels to recharge the battery.
-- The rover can go at two speeds: fast and slow.
+- The rover can move at two speeds: fast and slow.
 - Each task (from the previous domain and the new one) will have a variable duration. 
 
 The plan will have to take into account the consumption of the battery, and when is low (defined as a threshold value) recharge the battery.
