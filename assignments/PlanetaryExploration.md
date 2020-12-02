@@ -1,6 +1,6 @@
 ## Planetary exploration on Mars 
 
-Suppose we have a rover on Mars, and we want the rover to move from an initial position to a final one. The rover can perform several tasks (not in parallel) such as:
+Suppose we have a rover (or several) on Mars, and we want the rover to move from an initial position to a final one. The rover can perform several tasks (not in parallel) such as:
 - Move: from the origin to the source.
 - Take a picture: at a given location.
 - Drill: at a given location.
