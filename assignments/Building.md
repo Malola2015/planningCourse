@@ -11,6 +11,7 @@ The actions are described next:
  - Move down (lift, level1, level2): the lift moves down from level1 to level2. Model two actions, one for a fast lift and another one for a slow lift.  The duration of the 2 actions should be given by a predicate.
  - Board (person, lift, level, num1, num2): the person boards on a level. The variable num1 specify the number of persons in the lift, and num2 is incremented in 1 when the person is boarded. The duration of the action is constant and equal to 1.
  - Leave (person, lift, level, num1, num2): the person leaves the lift on a floor level. The variable num1 specifies the number of persons in the lift, and num2 is decremented when the person leaves the lift. The duration of the action is constant and equal to 1.
+ - Sanitize (lift): it performs an elevator cleaning. As a precondition, the lift will not be disinfected, and as an effect, it will be. Also modify the Board operator so that it has as a precondition that the elevator must be disinfected.
 
 Note: Use objects (and not numbers) to treat the number of persons and the level floors. That is, define the following types:
 ```
