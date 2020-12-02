@@ -1,3 +1,10 @@
 ## Planetary exploration on Mars 
 
-Suppose we have a rover on Mars, and we want the rover to move from an initial position to a final one. It can perform several tasks at various points, such as taking pictures, drilling, earth communication, analyse samples and extend solar panels to recharge the battery. The positions where those tasks have to be taken should be specified on the goal section using points. The rover can perform more than one of those activities (e.g. it can take 10 pictures in 10 different positions) and while those activities are performed the rover CANNOT move. In addition, it will be considered that the rover can go at two speeds: fast and slow. The resource to be modelled is the battery. The consumption of the battery will change according to some parameters (for example, distance or speed). Each task will have a variable duration. The plan will have to take into account the consumption of the battery, and when is low (defined as a threshold value) recharge the battery.
+Suppose we have a rover on Mars, and we want the rover to move from an initial position to a final one. The rover can perform several tasks (not in parallel) such as:
+- Move: from the origin to the source.
+- Take a picture: at a given location.
+- Drill: at a given location.
+- Earth communication: at a given location.
+- Analyse samples: at a given location.
+
+The positions where those tasks have to be taken should be specified on the goal section using points (I would suggest you use objects instead of numbers to represent the X and Y coordinates). The rover can perform more than one of those activities (e.g. it can take 10 pictures in 10 different positions) and while those activities are performed the rover CANNOT move. 
