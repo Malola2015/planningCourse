@@ -1,3 +1,4 @@
+## Gripper with time and preferences
 We are going to extend the GRIPPER domain (the first domain studied in class) to use time and preferences. This extension of the domain was part of the June exam in 2020.
 
 https://github.com/Malola2015/planningCourse/blob/master/assignments/Gripper.md
