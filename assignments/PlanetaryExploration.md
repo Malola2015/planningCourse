@@ -7,4 +7,4 @@ Suppose we have a rover on Mars, and we want the rover to move from an initial p
 - Earth communication: at a given location.
 - Analyse samples: at a given location.
 
-The positions where those tasks have to be taken should be specified on the goal section using points (I would suggest you use objects instead of numbers to represent the X and Y coordinates). The rover can perform more than one of those activities (e.g. it can take 10 pictures in 10 different positions) and while those activities are performed the rover CANNOT move. 
+The positions where those tasks have to be taken should be specified on the goal section using points (I would suggest you use objects to represent the X and Y coordinates, for example, X=13 Y=14 will be represented as the object P1314). The rover can perform more than one of those activities (e.g. it can take 10 pictures in 10 different positions) and while those activities are performed the rover CANNOT move. 
