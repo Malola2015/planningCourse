@@ -16,10 +16,14 @@ In order to help in the resolution of problems, one can check the International 
 
 
 ## Exercises 
-This practical assignment consists of 5 exercises. The first exercise is already modelled. The second and third exercises are partially modelled. The rest has to be modelled from scratch. You can use the following on-line editor to run the models:
-http://editor.planning.domains/ 
+You can use the following on-line editors to model and run the exercises:
+- http://editor.planning.domains/ 
+- https://pddl-editor.herokuapp.com/editor
+
+The first exercise is already modelled. The second and third exercises are partially modelled. The rest has to be modelled from scratch.
  -  Exercise 1: [Gripper](Gripper.md)
  -  Exercise 2: [Blocksworld](Blocksworld.md)
  -  Exercise 3: [Space Operation](SpaceOperation.md)
- -  Exercise 4: [Robot Planning Motion](RobotMotion.md)
- -  Exercise 5: [Rocket](Rocket.md)
+ -  Exercise 4: [Robot Planning Motion](RobotMotion.md): Shakey
+ -  Exercise 5: [Planetary exploration on Mars](PlanetaryExploration.md)
+ -  Exercise 6: [Pizza](Pizza.md)
