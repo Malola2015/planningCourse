@@ -26,4 +26,4 @@ The first exercise is already modelled. The second and third exercises are parti
  -  Exercise 3: [Space Operation](SpaceOperation.md)
  -  Exercise 4: [Robot Planning Motion](RobotMotion.md): Shakey
  -  Exercise 5: [Planetary exploration on Mars](PlanetaryExploration.md)
- -  Exercise 6: [Pizza](Pizza.md)
+ -  Exercise 6: [Pizzeria](Pizza.md)
