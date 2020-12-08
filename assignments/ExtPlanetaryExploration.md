@@ -13,5 +13,6 @@ The plan will have to take into account the consumption of the battery, and when
 
 Define two preferences:
 
-ALWAYS the UGV does not go at risk postions (define one or two risks positions in your problem).
-SOMETIMES the UGV takes a picture in position x = 5 Y = 6.
+- ALWAYS the UGV does not go at risk postions (define one or two risks positions in your problem).
+
+- SOMETIMES the UGV takes a picture in position x = 5 Y = 6.
