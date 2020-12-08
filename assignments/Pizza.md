@@ -1,4 +1,6 @@
-We have a pizzeria that sell both, pizzas and other type of dishes that will have a different time and cooking process:
+## Pizzeria
+
+We have a pizzeria that sells both, pizzas and other type of dishes with different time and cooking process. 
 - In the pizza, the dough will be kneaded, the ingredients will be added and then, it will be baked.
 - The rest of the dishes will be cooked.
 
