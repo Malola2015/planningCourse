@@ -10,3 +10,8 @@ From that domain, consider:
 - Each task (from the previous domain and the new one) will have a variable duration. 
 
 The plan will have to take into account the consumption of the battery, and when is low (defined as a threshold value) recharge the battery.
+
+Define two preferences:
+
+ALWAYS the UGV does not go at risk postions (define one or two risks positions in your problem).
+SOMETIMES the UGV takes a picture in position x = 5 Y = 6.
