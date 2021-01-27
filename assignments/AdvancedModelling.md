@@ -10,7 +10,7 @@
 * Implement and run temporal models and preferences.
 
 ## Exercises 
-This practical assignment consists of 4 exercises. Each domain should be in a separate folder and should contain the domain file and the problem files.
+This practical assignment consists of 5 exercises. Each domain should be in a separate folder and should contain the domain file and the problem files.
  -  Exercise 1: [Extended Gripper](ExtendedGripper.md)
  -  Exercise 2: [Building](Building.md)
  -  Exercise 3: [Extended Planetary exploration on Mars](ExtPlanetaryExploration.md) 
