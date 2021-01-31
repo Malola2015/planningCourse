@@ -93,8 +93,8 @@ Create a new file called *gripper-four-balls.pddl* and copy the following proble
 )
 ```
 Do the following steps:
- 1. Run the planning model using the on-line editor, and check the results:
- [http://editor.planning.domains/](http://editor.planning.domains/)
+ 1. Run the planning model using the on-line editors mentioned before, and check the results:
+ [Editors](https://github.com/Malola2015/planningCourse/blob/master/assignments/GettingStarted.md#exercises)
  2.  Place two of the balls and the gripper in roomb. The goal is that all balls are in rooma. Run the new model.
  3. Add two more balls and place them when you decide. The goal is that 5 balls are in the same room and the one remaining, in the other room. Run the new model.
  4. Extend the gripper domain to allow the definition of types. For that:
