@@ -16,7 +16,7 @@
 
 * [Planning Techniques](techniques/planningTechniques.pdf)
 
-* [Totally Ordered Planning](techniques/TO.pdf)
+* [Totally Ordered Planning (TO)](techniques/TO.pdf)
 
 * [Partially Ordered Planning (POP)](techniques/POP.pdf)
 
