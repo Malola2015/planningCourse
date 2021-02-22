@@ -15,4 +15,5 @@ This practical assignment consists of 5 exercises. Each domain should be in a se
  -  Exercise 2: [Building](Building.md)
  -  Exercise 3: [Extended Planetary exploration on Mars](ExtPlanetaryExploration.md) 
  -  Exercise 4: [Extended Pizzeria](ExtPizza.md)
- -  Exercise 5: Model a full temporal domain and problem (at least 2) where you think AI planning can be helpful. Do not use tipical AI examples such as the Missionaries and Cannibals Problem. You need to generate, at least, half page description of the problem and the actions modelled. 
+ -  Exercise 5: [Moving Out](MovingOut.md)
+ -  Exercise 6: Model a full temporal domain and problem (at least 2) where you think AI planning can be helpful. Do not use tipical AI examples such as the Missionaries and Cannibals Problem. You need to generate, at least, half page description of the problem and the actions modelled. 
