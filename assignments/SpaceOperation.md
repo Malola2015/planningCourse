@@ -37,7 +37,7 @@ Do the following steps:
  ```
 (turn_to satellite1 star0 phenomenon3)
 (switch_on instrument1 satellite1)
-(calibrate satellite1 instrument1 star0)
+(calibrate satellite1 instrument1 phenomenon3)
 (perfor_maintenance satellite1)
 (take_image satellite1 phenomenon3 instrument1 spectrograph2)
 ```
