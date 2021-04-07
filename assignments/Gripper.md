@@ -99,17 +99,13 @@ Do the following steps:
  3. Add two more balls and place them when you decide. The goal is that 5 balls are in the same room and the one remaining, in the other room. Run the new model.
  4. Extend the gripper domain to allow the definition of types. For that:
     - Add in the domain the types as follow: 
-      `(:requirements :strips :typing)` 
-      
-      `(:types room ball gripper)` 
+      ```(:requirements :strips :typing)      
+         (:types room ball gripper)``` 
     - In the operators, specify the type:
-       `:parameters (?b - ball
-                     ...
-                     ?r - room)
+       ```:parameters (?b - ball ?r - room ...)```
    
     - In the problem, define the type of the objects:
-    `(:objects rooma roomb - room 
-               b1 b2 b3 b4 - ball 
-               ...
-     )`
+    ```(:objects rooma roomb - room 
+                 ...
+       )```
 
