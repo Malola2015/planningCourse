@@ -100,10 +100,16 @@ Do the following steps:
  4. Extend the gripper domain to allow the definition of types. For that:
     - Add in the domain the types as follow: 
       `(:requirements :strips :typing)` 
+      
       `(:types room ball gripper)` 
     - In the operators, specify the type:
-       `:parameters (?b - ball ...)`
+       `:parameters (?b - ball
+                     ...
+                     ?r - room)
    
     - In the problem, define the type of the objects:
-    `(:objects rooma roomb - room ...)`
+    `(:objects rooma roomb - room 
+               b1 b2 b3 b4 - ball 
+               ...
+     )`
 
