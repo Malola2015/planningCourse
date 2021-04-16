@@ -11,7 +11,7 @@ From that domain, consider:
 
 The plan will have to take into account the consumption of the battery, and when is low (defined as a threshold value) recharge the battery.
 
-Define two preferences:
+Define two preferences (don´t use them at the same time):
 
 - ALWAYS the UGV does not move to dangerous postions (define one or two dangerous positions in your problem).
 
