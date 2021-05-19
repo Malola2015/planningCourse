@@ -64,7 +64,7 @@ Once the path-planning algorithms are ready, we want to call them to avoid the P
 
 and then, copy the rest of your plan, for example operations:
 ```
-10: (recharge_batteries )
+10: (communicate p0030)
 
 11: (recharge_batteries )
 ```
