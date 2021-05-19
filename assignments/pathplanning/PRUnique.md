@@ -58,7 +58,16 @@ Once the path-planning algorithms are ready, we want to call them to avoid the P
 
 1. Modify the [Planetary exploration on Mars](https://github.com/Malola2015/planningCourse/blob/master/assignments/PlanetaryExploration.md) domain to consider the coordinates as objects of the type ```Point```. For example, X=6 Y=10 will be represented as the object P0610. Now, you can delete all the obstacles since the path will be now delegated to the path-planner algorithm, freeing the PDDL planner from it.
 
-2. Run the new domain (if you have modelled it in a different way) and save the solution into a file called ```planning.txt```. This file will be the input to the simulator that will call the path-planning algorithm.  This file is located in ```../res/``` folder. Just overwrite it.
+2. Run the new domain (if you have modelled it in a different way) and save the solution into a file called ```planning.txt```. This file will be the input to the simulator that will call the path-planning algorithm.  This file is located in ```../res/``` folder. Just overwrite it. Be aware that the initial position of the robot should be specified first: 
+
+```(move r p0500 p0030)```
+
+and then, copy the rest of your plan, for example operations:
+```
+10: (recharge_batteries )
+
+11: (recharge_batteries )
+```
 
 3. The code provided in the following link is placed in ```r2p2/controllers/pddl_executor.py```.
 
