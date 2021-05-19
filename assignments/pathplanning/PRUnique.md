@@ -60,7 +60,7 @@ Once the path-planning algorithms are ready, we want to call them to avoid the P
 
 2. Run the new domain (if you have modelled it in a different way) and save the solution into a file called ```planning.txt```. This file will be the input to the simulator that will call the path-planning algorithm.  This file is located in ```../res/``` folder. Just overwrite it. Be aware that the initial position of the robot should be specified first: 
 
-```(move r p0500 p0030)```
+```(move r p0000 p0001)```
 
 and then, copy the rest of your plan, for example operations:
 ```
