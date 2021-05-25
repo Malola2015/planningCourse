@@ -62,7 +62,7 @@ Once the path-planning algorithms are ready, we want to call them to avoid the P
 
 ```(move r p0000 p0001)```
 
-and then, copy the rest of your plan, for example operations:
+and then, copy the rest of your plan, for example the following operations:
 ```
 10: (communicate p0030)
 
