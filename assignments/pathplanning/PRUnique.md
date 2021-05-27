@@ -76,7 +76,7 @@ and then, copy the rest of your plan, for example the following operations:
    It reads the PDDL output, and each time there is a ```move``` action with a coordinate, it calls the path-planning  
    algorithm with the destination given by the action. This code is integrated in the simulator.
 
-4. Change the heuristics and the algorithms in the ```conf/controller-pathplanning.json```.
+4. Change the heuristics and the algorithms in the ```conf/controller-planning.json```.
 
 5. Run the planning domain scenario using the simulator.
 
