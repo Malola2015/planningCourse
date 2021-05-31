@@ -31,7 +31,7 @@ Perform the following tasks:
 
    Note that the robot is initially located at the position (18,19) and the goal at position (12,12). The simulator visualizes the computed path. 
    
-3. Given that the configuration of the robot controller is located in the file ```conf/controller-pathplanning.json```, change the initial point to  (27,19) and the goal to (8,20). You can also change the size of the grid. Remember that it is advisable 
+3. Given that the configuration of the robot controller is located in the file ```conf/scenario-pathplanning.json```, change the initial point to  (27,19) and the goal to (8,20). You can also change the size of the grid. Remember that it is advisable 
 to use values between 15 and 40 in order not to lose precision without compromising efficiency.
 
 4. In order to change the algorithm (A*, Dijkstra or Theta*) just set "A*"  "Dijkstra" or "Theta*" in the ```algorithm``` field of ```conf/controller-pathplanning.json``` (caution, the simulator is case sensitive). We provide you with the implementation of A* and Dijkstra. The implementation of A* is based on the  pseudo-code of the next figure:
@@ -42,13 +42,17 @@ to use values between 15 and 40 in order not to lose precision without compromis
 
 <img align="center" src="Theta*.png" width="600">
 
+ Use the method `move_cost(s')` in `Node` class as the implementation for function `c(s, s')`. This method's default behavior returns the distance between the current node and the destination node `s'` passed in as a parameter.
+
 Take into account that the difference between A* and Theta* is the Line of sight. Here is the code to calculate it:
 
 <img align="center" src="Lineofsight.png" width="600">
 
+Note that the simulator stores a grid of Node objects. As such, in order to determine visibility, use the `is_blocked` method implemented for each node, which returns True whenever there would be no visibility. This behavior replaces the `grid`function defined in the pseudocode.
+
 6. Which heuristic is used by default? If needed, use the path-planning visualizer in https://qiao.github.io/PathFinding.js/visual/ to reconstruct the scenario and observe the node expansion using the different algorithms.
 
-7. Implement the Manhattan, Octile and Euclidean heuristics for A*/Theta*. Go to the ```r2p2/heuristic.py``` file and fill out the functions ```euclidean``` and ```manhattan```, and create a new one for the Octile heuristic (don´t forget to register it). The functions take the initial and final points as tuples (X, Y) and must return a float with the heuristic value.
+7. Implement the Manhattan, Octile and Euclidean heuristics for A*/Theta*. Go to the ```r2p2/heuristic.py``` file and fill out the functions ```euclidean``` and ```manhattan```, and create a new one for the Octile heuristic (don´t forget to register it). The functions take the initial and final points as tuples (X, Y) and must return a float with the heuristic value. Please, use the `point` attribute in the `Node` class for these calculations.
 
 8. Create the image given on [slide 38](https://github.com/Malola2015/planningCourse/blob/master/robotics/pathplanning.pdf), set the grid size as 40, run the 3 algorithms and compare the results, changing the heuristic. Capture the images of the solution and upload them with the rest of the files.
 
